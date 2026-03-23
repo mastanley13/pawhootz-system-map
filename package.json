@@ -1,0 +1,16 @@
+{
+  "name": "pawhoots-system-map-attempt",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.3"
+  }
+}
