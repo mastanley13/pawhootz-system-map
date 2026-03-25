@@ -4,3 +4,4 @@ dist/
 .vite/
 .env*
 !.env.example
+ACCESS_NOTES.local.md

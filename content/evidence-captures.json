@@ -1,0 +1,109 @@
+{
+  "verifiedAt": "2026-03-23T16:56:04.646Z",
+  "shots": [
+    {
+      "status": "proven",
+      "title": "Client Portal Home",
+      "surface": "Client Portal",
+      "image": "/evidence/client-portal-home.png",
+      "alt": "Authenticated PawHootz client portal home screen",
+      "caption": "Authenticated client dashboard showing household-level access to pets, service actions, and post-login portal controls.",
+      "sourceRef": "http://127.0.0.1:5000/portal | src/pages/portal/PortalPage.tsx",
+      "whatItProves": [
+        "The client portal has a working post-login home surface.",
+        "Pet management and service actions are visible in an authenticated session.",
+        "The dossier now includes proof beyond public auth screens."
+      ]
+    },
+    {
+      "status": "proven",
+      "title": "Client Vaccine Upload",
+      "surface": "Client Portal",
+      "image": "/evidence/client-vaccine-upload.png",
+      "alt": "Client portal vaccine upload dialog",
+      "caption": "Authenticated vaccine-upload flow from the pet card, including typed vaccine selection and document-upload entry point.",
+      "sourceRef": "http://127.0.0.1:5000/portal | src/components/portal/VaccinationUploadDialog.tsx",
+      "whatItProves": [
+        "Clients can open a real vaccine-upload workflow from within the portal.",
+        "Vaccine submission is represented as an operational UI, not a placeholder note.",
+        "The client portal owns a concrete compliance handoff into staff review."
+      ]
+    },
+    {
+      "status": "proven",
+      "title": "Client Report Card",
+      "surface": "Client Portal",
+      "image": "/evidence/client-report-card.png",
+      "alt": "Client portal report card screen",
+      "caption": "Authenticated report-card screen with history tabs, branded recap UI, and media-oriented layout.",
+      "sourceRef": "http://127.0.0.1:5000/portal/pets/69163914c22a4cf1f50df5a6/report-card?reportCardId=rc-latest | src/pages/portal/ReportCardPage.tsx",
+      "whatItProves": [
+        "The client portal already includes a report-card experience.",
+        "Report history and branded recap presentation are visibly represented in the current build.",
+        "Report cards are no longer just a matrix row; they now have direct screen proof in the dossier."
+      ]
+    },
+    {
+      "status": "proven",
+      "title": "Client Appointment Manager",
+      "surface": "Client Portal",
+      "image": "/evidence/client-appointments.png",
+      "alt": "Client portal manage appointments screen",
+      "caption": "Authenticated appointment-management view showing the customer-facing surface for upcoming and past bookings.",
+      "sourceRef": "http://127.0.0.1:5000/portal/appointments | src/pages/portal/ManageAppointmentsPage.tsx",
+      "whatItProves": [
+        "Customers have a real appointment-management screen after login.",
+        "The portal is handling post-booking lifecycle tasks, not only service selection.",
+        "Booking evidence now includes an authenticated management surface."
+      ]
+    },
+    {
+      "status": "proven",
+      "title": "Staff Front Desk Queue",
+      "surface": "Staff Portal",
+      "image": "/evidence/staff-frontdesk-queue.png",
+      "alt": "Staff portal front desk queue screen",
+      "caption": "Authenticated front-desk workspace showing appointment counts, queue controls, and daily operational actions.",
+      "sourceRef": "http://127.0.0.1:4175/frontdesk/queue | src/pages/FrontDesk.tsx",
+      "whatItProves": [
+        "The staff portal has a working operations dashboard after authentication.",
+        "Front-desk users can access queue, counts, and appointment controls in the live app.",
+        "Operations proof now includes a real post-login staff surface."
+      ]
+    },
+    {
+      "status": "proven",
+      "title": "Staff Vaccine Approval",
+      "surface": "Staff Portal",
+      "image": "/evidence/staff-vaccine-approval.png",
+      "alt": "Staff portal vaccine approval modal",
+      "caption": "Authenticated vaccine-approval workflow from the front-desk workspace, giving the dossier direct proof of the staff-side compliance loop.",
+      "sourceRef": "http://127.0.0.1:4175/frontdesk/queue | src/components/VaccineApprovalModal.tsx",
+      "whatItProves": [
+        "Staff can open a dedicated vaccine-review workflow from the portal.",
+        "The staff portal contains a real approval loop for uploaded vaccine records.",
+        "Client-to-staff vaccine handoff is now visually evidenced in the dossier."
+      ]
+    },
+    {
+      "status": "proven",
+      "title": "Staff Calendar",
+      "surface": "Staff Portal",
+      "image": "/evidence/staff-calendar.png",
+      "alt": "Staff portal calendar screen",
+      "caption": "Authenticated staff calendar view showing the dedicated schedule-management surface inside the operations portal.",
+      "sourceRef": "http://127.0.0.1:4175/calendar | pages/calendar.tsx",
+      "whatItProves": [
+        "The staff portal includes a real calendar workspace.",
+        "Scheduling is represented as a dedicated staff surface rather than only through queue controls.",
+        "Calendar operations now have direct screenshot evidence in the map."
+      ]
+    }
+  ],
+  "backlog": [
+    "Capture authenticated webcam screens once a checked-in pet is available in the demo account.",
+    "Capture GHL UI screenshots for workflows, forms, calendars, templates, and deposit settings.",
+    "Capture any remaining staff messaging or conversation surfaces that matter for launch review."
+  ],
+  "warnings": []
+}

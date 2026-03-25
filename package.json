@@ -6,11 +6,15 @@
     "node": ">=20.19.0"
   },
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
-    "build": "vite build",
+    "generate": "node ./scripts/generate-site.mjs",
+    "refresh:ghl": "node ./scripts/pull-ghl-summary.mjs",
+    "capture:evidence": "node ./scripts/capture-auth-evidence.mjs",
+    "dev": "npm run generate && vite --host 127.0.0.1",
+    "build": "npm run generate && vite build",
     "preview": "vite preview --host 127.0.0.1"
   },
   "devDependencies": {
+    "playwright": "^1.58.2",
     "vite": "^7.1.3"
   }
 }

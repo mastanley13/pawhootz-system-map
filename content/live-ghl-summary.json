@@ -1,0 +1,534 @@
+{
+  "verifiedAt": "2026-03-23T13:31:44.260Z",
+  "locationId": "dSMazNc3NkiqdkOVHX1x",
+  "counts": {
+    "calendars": 19,
+    "objects": 8,
+    "customObjects": 5,
+    "pipelines": 3,
+    "customFields": 227,
+    "workflows": 86,
+    "forms": 10
+  },
+  "calendars": [
+    {
+      "name": "Grooming Services",
+      "category": "service"
+    },
+    {
+      "name": "Daycare Services",
+      "category": "service"
+    },
+    {
+      "name": "K9 Kottages",
+      "category": "facility"
+    },
+    {
+      "name": "Lodging/Boarding Services",
+      "category": "service"
+    },
+    {
+      "name": "Private Play",
+      "category": "facility"
+    },
+    {
+      "name": "Enrichment Runs",
+      "category": "facility"
+    },
+    {
+      "name": "Training Services",
+      "category": "service"
+    },
+    {
+      "name": "Ariel Pawhootz's Personal Calendar",
+      "category": "staff"
+    },
+    {
+      "name": "Events Calendar",
+      "category": "service"
+    },
+    {
+      "name": "Social Yard",
+      "category": "facility"
+    },
+    {
+      "name": "Cat Condos",
+      "category": "facility"
+    },
+    {
+      "name": "Karoline Pawhootz's Personal Calendar",
+      "category": "staff"
+    },
+    {
+      "name": "Texas Tails",
+      "category": "facility"
+    },
+    {
+      "name": "Puppy Play",
+      "category": "facility"
+    },
+    {
+      "name": "Labrador Lounge",
+      "category": "facility"
+    },
+    {
+      "name": "Bottom/Top Condo",
+      "category": "facility"
+    },
+    {
+      "name": "Rover Runs",
+      "category": "facility"
+    },
+    {
+      "name": "Doggie Digs",
+      "category": "facility"
+    },
+    {
+      "name": "CDC Runs",
+      "category": "facility"
+    }
+  ],
+  "objects": [
+    {
+      "key": "business",
+      "label": "business"
+    },
+    {
+      "key": "opportunity",
+      "label": "opportunity"
+    },
+    {
+      "key": "contact",
+      "label": "contact"
+    },
+    {
+      "key": "custom_objects.pets",
+      "label": "custom_objects.pets"
+    },
+    {
+      "key": "custom_objects.vaccine_records",
+      "label": "custom_objects.vaccine_records"
+    },
+    {
+      "key": "custom_objects.reports",
+      "label": "custom_objects.reports"
+    },
+    {
+      "key": "custom_objects.pet_icons",
+      "label": "custom_objects.pet_icons"
+    },
+    {
+      "key": "custom_objects.veterinarians",
+      "label": "custom_objects.veterinarians"
+    }
+  ],
+  "pipelines": [
+    {
+      "name": "Medford Appointments"
+    },
+    {
+      "name": "Mt. Laurel Appointments"
+    },
+    {
+      "name": "Training Sessions"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "30 Min Grooming Checking (Stage 2 - Form Submitted -> Follow-On to Staff/Management/Customer)",
+      "status": "draft"
+    },
+    {
+      "name": "Adoption Discount Verification & Fulfillment",
+      "status": "draft"
+    },
+    {
+      "name": "Aggression History Notification",
+      "status": "draft"
+    },
+    {
+      "name": "Appointment Pipeline",
+      "status": "draft"
+    },
+    {
+      "name": "Appointment Reminders & Confirmation",
+      "status": "draft"
+    },
+    {
+      "name": "Birthday & Special Perks",
+      "status": "draft"
+    },
+    {
+      "name": "Boarding Report Card Generate",
+      "status": "draft"
+    },
+    {
+      "name": "Boarding Staff Post Session",
+      "status": "draft"
+    },
+    {
+      "name": "Cancellation & Win-Back",
+      "status": "draft"
+    },
+    {
+      "name": "Champ Bucks",
+      "status": "draft"
+    },
+    {
+      "name": "Checkout & Reactivation",
+      "status": "draft"
+    },
+    {
+      "name": "Checkout Thank You & Review Request",
+      "status": "draft"
+    },
+    {
+      "name": "Client Portal Signup Communication",
+      "status": "draft"
+    },
+    {
+      "name": "Course Completion",
+      "status": "draft"
+    },
+    {
+      "name": "Course Completion & Next-Level Upsell",
+      "status": "draft"
+    },
+    {
+      "name": "Course Invite",
+      "status": "draft"
+    },
+    {
+      "name": "Cust. Exp. Appointment Communication",
+      "status": "draft"
+    },
+    {
+      "name": "Day-Of Reminder & On-the-Way Alerts",
+      "status": "draft"
+    },
+    {
+      "name": "Double Booking Test",
+      "status": "draft"
+    },
+    {
+      "name": "During-Stay Updates & Pupdates",
+      "status": "draft"
+    },
+    {
+      "name": "Employee 30 Min Check-In (Stage 1 - Pre Form Submission)",
+      "status": "draft"
+    },
+    {
+      "name": "Enrichment & Update Reminders",
+      "status": "draft"
+    },
+    {
+      "name": "Evaluation Day Reminder & Outcome",
+      "status": "draft"
+    },
+    {
+      "name": "Failed Payment & Card Update",
+      "status": "draft"
+    },
+    {
+      "name": "Global Lapsed‑Client Winback",
+      "status": "draft"
+    },
+    {
+      "name": "Global Post‑Service Review Request",
+      "status": "draft"
+    },
+    {
+      "name": "Grooming Drop-off SMS to Customer",
+      "status": "draft"
+    },
+    {
+      "name": "Grooming Report Card Generate",
+      "status": "draft"
+    },
+    {
+      "name": "Grooming Staff Post Session",
+      "status": "draft"
+    },
+    {
+      "name": "Group Class Enrollment & Class Drip",
+      "status": "draft"
+    },
+    {
+      "name": "Holiday Photo & Event Invites",
+      "status": "draft"
+    },
+    {
+      "name": "Homework & Progress Follow-Up",
+      "status": "draft"
+    },
+    {
+      "name": "Inactive Client Reactivation (Global)",
+      "status": "draft"
+    },
+    {
+      "name": "Inactive Grooming Client Reactivation",
+      "status": "draft"
+    },
+    {
+      "name": "Inactive Training Client Reactivation",
+      "status": "draft"
+    },
+    {
+      "name": "Initial Satisfaction Survey Firewall",
+      "status": "draft"
+    },
+    {
+      "name": "Initial Survey Email",
+      "status": "draft"
+    },
+    {
+      "name": "Lapsed Boarder Reactivation",
+      "status": "draft"
+    },
+    {
+      "name": "Lapsed Daycare Reactivation",
+      "status": "draft"
+    },
+    {
+      "name": "MEM | Elevated Play Membership Purchase → Status + Benefits",
+      "status": "draft"
+    },
+    {
+      "name": "Membership Sign-Up & Billing",
+      "status": "draft"
+    },
+    {
+      "name": "New Appointment ->Opportunity Created with Correct Info",
+      "status": "draft"
+    },
+    {
+      "name": "New Client Welcome & First-Visit Offer",
+      "status": "draft"
+    },
+    {
+      "name": "New Contact Source Tagging & Routing",
+      "status": "draft"
+    },
+    {
+      "name": "New Inquiry & Consultation Scheduling",
+      "status": "draft"
+    },
+    {
+      "name": "New Inquiry & Evaluation Scheduling",
+      "status": "draft"
+    },
+    {
+      "name": "New Workflow : 1749661493794",
+      "status": "draft"
+    },
+    {
+      "name": "Next Groom Reminder",
+      "status": "draft"
+    },
+    {
+      "name": "ONBOARD | Gate Booking Until Requirements Complete",
+      "status": "draft"
+    },
+    {
+      "name": "ONBOARD | Portal Invite + Login Setup",
+      "status": "draft"
+    },
+    {
+      "name": "Ongoing Booking & Daily Reminders",
+      "status": "draft"
+    },
+    {
+      "name": "Online Booking & Intake",
+      "status": "draft"
+    },
+    {
+      "name": "Online Contact Form - Add Task",
+      "status": "published"
+    },
+    {
+      "name": "Online Purchase Thank You & Review Request",
+      "status": "draft"
+    },
+    {
+      "name": "PAY | Apply Deposit Rules (New vs Existing; Lodging vs Other)",
+      "status": "draft"
+    },
+    {
+      "name": "Pet Report Card Add Task",
+      "status": "draft"
+    },
+    {
+      "name": "Pet Report Card Update Contact Field",
+      "status": "draft"
+    },
+    {
+      "name": "Photo Pupdates & Daily Reports",
+      "status": "draft"
+    },
+    {
+      "name": "Post-Groom Follow-Up & Review",
+      "status": "draft"
+    },
+    {
+      "name": "Post-Ride Feedback & Upsell",
+      "status": "draft"
+    },
+    {
+      "name": "Pre-Stay Checklist & Intake",
+      "status": "draft"
+    },
+    {
+      "name": "Pre-Stay Instructions & Intake",
+      "status": "draft"
+    },
+    {
+      "name": "PreCheck SMS",
+      "status": "draft"
+    },
+    {
+      "name": "Private Lesson Booking & Reminders",
+      "status": "draft"
+    },
+    {
+      "name": "REPORT | Daily Pup-Date Loop (4 PM)",
+      "status": "draft"
+    },
+    {
+      "name": "REPORT | End-of-Stay Report Card Delivery",
+      "status": "draft"
+    },
+    {
+      "name": "Ready for Pickup Notifications",
+      "status": "draft"
+    },
+    {
+      "name": "Referral Tracking & Reward Delivery (Refur-a-Paw)",
+      "status": "draft"
+    },
+    {
+      "name": "Request & Quote Handling",
+      "status": "draft"
+    },
+    {
+      "name": "Reservation Request & Confirmation",
+      "status": "draft"
+    },
+    {
+      "name": "Reservation Request & Confirmation",
+      "status": "draft"
+    },
+    {
+      "name": "Retail Event / Sale Announcement",
+      "status": "draft"
+    },
+    {
+      "name": "Retail Inactive Buyer Nudge",
+      "status": "draft"
+    },
+    {
+      "name": "SAFETY | Behavior Form → Flagging + Private Play Logic",
+      "status": "draft"
+    },
+    {
+      "name": "STAY | Check-In Starts Stay State + Enables Webcams + Daily Updates",
+      "status": "draft"
+    },
+    {
+      "name": "STORE | Order Placed → Fulfillment + Accounting Sync",
+      "status": "draft"
+    },
+    {
+      "name": "Seasonal & Event Broadcasts",
+      "status": "draft"
+    },
+    {
+      "name": "Sign-Up & Subscription Billing",
+      "status": "draft"
+    },
+    {
+      "name": "Step 2: Staff Notes for Pet -> Owner Notes",
+      "status": "published"
+    },
+    {
+      "name": "TRAIN | Force Orientation/Consultation Before Training Enrollment",
+      "status": "draft"
+    },
+    {
+      "name": "Training Report Card Generate",
+      "status": "draft"
+    },
+    {
+      "name": "Training Staff Post Session",
+      "status": "draft"
+    },
+    {
+      "name": "Update Date for Last Groomed",
+      "status": "draft"
+    },
+    {
+      "name": "VAX | Vaccine Document Submitted → Pending Review + AI Assist",
+      "status": "draft"
+    },
+    {
+      "name": "Welcome & Orientation Series",
+      "status": "draft"
+    },
+    {
+      "name": "test",
+      "status": "draft"
+    }
+  ],
+  "forms": [
+    {
+      "name": "Event Registration Form",
+      "type": ""
+    },
+    {
+      "name": "Vaccination Waiver",
+      "type": ""
+    },
+    {
+      "name": "(Cat) New Client Application",
+      "type": ""
+    },
+    {
+      "name": "(Dog) New Client Application",
+      "type": ""
+    },
+    {
+      "name": "Pet Grooming Questionnaire",
+      "type": ""
+    },
+    {
+      "name": "Form 2",
+      "type": ""
+    },
+    {
+      "name": "Grooming Booking Form",
+      "type": ""
+    },
+    {
+      "name": "Rewards Program Form",
+      "type": ""
+    },
+    {
+      "name": "Training Report Form ",
+      "type": ""
+    },
+    {
+      "name": "Training Contact Form",
+      "type": ""
+    }
+  ],
+  "access": {
+    "workflows": {
+      "status": "proven",
+      "note": "Workflow endpoint reachable with 86 records returned."
+    },
+    "forms": {
+      "status": "proven",
+      "note": "Forms endpoint reachable with 10 records returned."
+    }
+  }
+}
